@@ -1,0 +1,131 @@
+/* indication général sur le html */ 
+html{
+	height: 100%;
+	background-image:url('photo (1) - Copie.JPG');
+} 
+/* indication sur le body */ 
+body{
+	background-color: cadetblue;
+	width: 791px;
+	height: 1000px;
+	margin:auto;
+	margin-top:100px;
+	}
+/* couleur de base des liens */ 	
+a{
+	color:black;
+ }
+/* couleur des liens avec la souris quand elle passe dessus */  
+a:hover{
+	color:yellow;
+}
+/*indication sur le logo */ 
+ .logo{
+	width: 329px;
+	height: 122px;
+	position: relative;
+	right: 0px;
+	z-index:10;
+ }
+/* indication sur les sous menus */ 
+ li{
+	border:1px white solid;
+	text-align:left;
+	text-transform:uppercase;
+	background-image:url('bouton.JPG');
+}
+/* indication sur les éléments du sujet traité  */ 
+#main{
+	background-color:AquaMarine;
+	width: 786px;
+	height: 700px;
+	position: relative;
+	top: 74px;
+}
+
+h1+img{
+	float:left;
+	width:400px;
+}
+/*indication sur les élément de paragraphe */ 
+p{
+	font-size:2.5ex;
+	font-family: Arial, "Arial Black", "Comic Sans MS", "Courier New", serif;
+	text-align:left;
+
+}
+h1+p {
+	font-size:2.5ex;
+	font-family: Arial, "Arial Black", "Comic Sans MS", "Courier New", serif;
+	color: black;
+	text-align: left;
+}
+/* prix mis en évidence */ 
+.prix{
+	font-size:2.5ex;
+	color:orange;
+}
+/* souligné le texte choisi */ 
+.textsouligné{
+	text-decoration:underline;
+}
+/* indication sur le titre */ 
+ h1{
+	font-size:3ex;
+	font-family: Arial, "Arial Black", "Comic Sans MS", "Courier New", serif;
+	color: black;
+	position: relative;
+	right: 618px;
+ }
+ /* indication sur le menu déroulant */ 
+.menuderou ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:left;
+	position: relative;
+	right: 0px;
+	top: 0px;
+ }
+  /* indication sur les sousmenu du menu déroulant */ 
+.menuderou li {
+	float:left;
+	margin:auto;
+	padding:0;
+	text-align:left;
+	background-color:black;
+	position: relative;
+	width: 129px;
+	height: 43px;
+ }
+  /* indication sur les lien du menu déroulant */ 
+.menuderou li a {
+	display:block;
+	width:100px;
+	color:black;
+	text-decoration:none;
+	padding: 12px 12px;
+ 
+ }
+  /* indication sur la couleur des liens menu déroulant */ 
+.menuderou li a:hover {
+	color:#FFD700;
+ 
+ }
+  /* indication sur le menu des sous menu du menu déroulant */ 
+.menuderou ul li ul {
+	display:none;
+ }
+ /* indication sur le menu des sous menu du menu déroulant quand on passe la souris  */ 
+ .menuderou ul li:hover ul {
+	display:block;
+ 
+ }
+ /* indication sur le sousmenu qui apparait à l'écran quand on passe la souris  */ 
+ .menuderou li:hover ul li {
+	float:none;
+	position:relative;
+	right:0px;
+	top:0px;
+	z-index:20;
+ }
